@@ -10,5 +10,7 @@ module.exports = {
   ],
   rules: {
     'no-underscore-dangle': 0,
+    'no-unused-vars': 'warn',
+    'react/prop-types': 'warn',
   },
 };

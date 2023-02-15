@@ -8,6 +8,7 @@ import type { TravelLogWithId } from '@/models/TravelLog/TravelLogs';
 import TravelLogContext from '@/TravelLogContext';
 import {
   TravelLogActionType,
+  // eslint-disable-next-line prettier/prettier
   TravelLogDispatch
 } from '@/types/TravelLogProviderTypes';
 import { useCallback, useContext, useLayoutEffect } from 'react';
